@@ -1,0 +1,22 @@
+build
+*.swp
+*.pyc
+a.out
+pub
+
+# Latex stuff
+*.aux
+*.bbl
+*.blg
+*.brf
+*.dvi
+*.log
+*.nav
+*.snm
+*.out
+*.toc
+*.pre
+*.synctex.gz
+*.lol
+*.kilepr
+*~
