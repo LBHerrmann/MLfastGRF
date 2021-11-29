@@ -1,5 +1,5 @@
 
-#Description
+# Description
 
 
 The following C++ code realizes a fast algorithm to sample non-stationary Gaussian random fields indexed by spatial domains.
@@ -8,7 +8,7 @@ and uses a sinc quadrature combined with a BPX preconditioned Finite Element Met
 
 
 
-#Publication
+# Publication
 
 Lukas Herrmann, Kristin Kirchner, Christoph Schwab<br />
 Multilevel approximation of Gaussian random fields: Fast simulation<br />
@@ -17,7 +17,7 @@ Mathematical Models and Methods in Applied Sciences, 30(1), pp. 181--223, 2020. 
 
 
 
-#Requirements
+# Requirements
 
 
 This code is based on version 2 of the "Boundary Element Template Library" (BETL2). 
@@ -39,7 +39,7 @@ Boost.MPI<br />
 
 
 
-#Installation
+# Installation
 
 
 The installation of BETL2 is required and assumed in the following. 
@@ -63,7 +63,7 @@ make betl2_fastGRF_L2L2_err_polygon
 make betl2_fastGRF_cpu_time
 ```
 
-#Reproduce the results from the paper
+# Reproduce the results from the paper
 
 Several executables need to be run in order to reproduce the results for Figures 1-4.<br />
 For Figure 1:
@@ -107,7 +107,7 @@ python3 results/beta_1.50/plot_square_polygon.py
 ```
 
 
-#Acknowledgement
+# Acknowledgement
 
 The included code "genericMLMC_v1.1.0" is written by Robert Gantner and a priliminary version of library "genericMLQMC", see the corresponding publication with [DOI](https://doi.org/10.1145/2929908.2929915). 
 It is used here for convenience.
