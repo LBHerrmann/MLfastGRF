@@ -8,6 +8,9 @@
 // Eigen includes --------------------------------------------------------------
 #include <Eigen/Dense>
 
+// betl2 includes ---------------------------------------------------------------
+#include <functional/grid_function_traits.hpp>
+
 //------------------------------------------------------------------------------
 
 
@@ -119,4 +122,4 @@
 
 
 
-#endif // BPX_PRECONDITIONER_HPP
+#endif // EFIE_BPX_PRECONDITIONER_HPP

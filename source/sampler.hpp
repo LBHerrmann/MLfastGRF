@@ -6,6 +6,7 @@
 #define SAMPLER_HPP
 
 #include<chrono>
+#include <random>
 
 class samplerclass
 {

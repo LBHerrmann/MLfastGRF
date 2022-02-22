@@ -3,7 +3,7 @@
 //! @date   2020
 
 #ifndef PARAMETRIC_INTEGRAND_BPX_PCG_L2L2_ERR_HPP
-#define PARAMETRIC_INTEGRAND_BPX_PCG_L2L2_ERR_HPP
+#define PARAMETRIC_INTEGRAN_BPX_PCG_L2L2_ERR_HPP
 
 
 // system includes -------------------------------------------------------------
@@ -64,6 +64,7 @@
 
 // own includes ----------------------------------------------------------------
 #include "sqrt_matrix.hpp"
+#include "bpx_preconditioner.hpp"
 
 using namespace betl2;
 
