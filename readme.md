@@ -70,15 +70,15 @@ For Figure 1:
 Change to root directory and execute the commands: 
 
 ```bash
-./source/betl2_fastGRF_err_sqrtM --mesh source/square --num 7
-./source/betl2_fastGRF_err_sqrtM --mesh source/square --num 4
+./source/betl2_fastGRF_err_sqrtM --mesh square --num 7
+./source/betl2_fastGRF_err_sqrtM --mesh square --num 4
 ```
 
 For Figure 2:
 Change to root directory and execute the commands:
 
 ```bash
-./source/betl2_fastGRF_cpu_time --mesh source/square --rep 40 --num 8 --beta 0.75
+./source/betl2_fastGRF_cpu_time --mesh square --rep 40 --num 8 --beta 0.75
 ```
 For Figure 3: 
 Change to root directory and execute the commands:
