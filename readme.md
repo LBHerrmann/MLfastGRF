@@ -43,7 +43,7 @@ Boost.MPI<br />
 
 
 The installation of BETL2 is required and assumed in the following. 
-Copy the repository into the Betl2 source folder next the folder Betl2/Library. 
+Copy the repository into the Betl2 source folder next to the folder Betl2/Library. 
 This folder will be the "root" folder in the following.
 
 Change into the root directory and create a new folder which can be used to build.
