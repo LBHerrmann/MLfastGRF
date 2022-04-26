@@ -26,11 +26,6 @@
 #include "precomputation.cpp"
 #include "compute_fastGRF_cpu_time.cpp"
 
-// -----------------------------------------------------------------------------
-
-
-//using namespace betl2;
-//namespace big = betl2::input::gmsh;
 
 //-----------------------------------------------------------------------
 
