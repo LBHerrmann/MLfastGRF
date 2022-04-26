@@ -178,11 +178,8 @@ void precomputation(std::string basename,
     // Quadrature rules for element type (surface):
     typedef QuadRule< eth::base::RefElType::TRIA,3 > tria_t;
     typedef QuadRule< eth::base::RefElType::QUAD,4 > quad_t;
-    // Quadrature rules for element type (edge):
-    typedef QuadRule< eth::base::RefElType::SEGMENT,2 > line_t;
     // subsume quadrature rules in typelists
     typedef QuadRuleList< tria_t, quad_t > surfQuadrules_t;
-    typedef QuadRuleList< line_t > lineQuadrules_t;
 
     //  Actual integrators:
     typedef double numeric_t;
